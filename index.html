@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>code quiz</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--info box-->
+    <div class="info_box">
+      <div class="info_title">Quiz Rules</div>
+      <div class="info_list">
+        <div class="info">
+          1. Each question will be <span>20 seconds</span> to complete
+        </div>
+
+        <div class="info">
+          2. the answers can only be selected once, no reselect
+        </div>
+
+        <div class="info">
+          3. you wont be able to select any option once time goes off
+        </div>
+
+        <div class="info">4. you can't exit once you start the quiz</div>
+
+        <div class="info">5. you'll get point from correct answers</div>
+      </div>
+      <div class="buttons">
+        <button class="startbutton">start quiz</button>
+        <button class="quit">exit quiz</button>
+        <button class="restart">restart</button>
+      </div>
+    </div>
+
+    <div>timer <span class="timer"></span></div>
+    <div class="question"></div>
+    <button class="choiceA"></button>
+    <button class="choiceB"></button>
+    <button class="choiceC"></button>
+    <button class="choiceD"></button>
+    <script src="./script.js"></script>
+  </body>
+</html>
